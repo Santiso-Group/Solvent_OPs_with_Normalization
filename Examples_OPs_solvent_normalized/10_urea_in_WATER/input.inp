@@ -1,0 +1,17 @@
+tolerance 2.0 # tolerance distance
+output simbox.pdb # output file name
+filetype pdb # output file type
+seed -1 # randomization
+#
+# Create a box of urea and water molecules
+#
+# urea
+structure urea.pdb
+number 10 # Number of molecules
+inside cube 0. 0. 0. 52. # x, y, z coordinates of box, and length of box in Angstroms
+end structure
+# water
+structure water.pdb
+number 3123
+inside cube 0. 0. 0. 52.
+end structure

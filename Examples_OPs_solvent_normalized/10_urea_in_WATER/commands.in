@@ -1,0 +1,10 @@
+# change location of files accordingly
+source leaprc.gaff
+source leaprc.water.tip3p
+URE = loadmol2 urea.mol2
+HOH = loadmol2 water.mol2
+simbox = loadPdb simbox.pdb
+loadamberparams frcmod.urea
+loadamberparams frcmod.wat
+set simbox box {52.0 52.0 52.0}
+saveAmberParm simbox simbox.prmtop simbox.inpcrd

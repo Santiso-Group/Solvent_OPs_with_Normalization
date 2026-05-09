@@ -1,0 +1,134 @@
+CentOS Linux release 7.5.1804 (Core) 
+*****  Processor      4
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1634  Allocated:      1633
+
+*****  Processor      5
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1634  Allocated:      1633
+
+*****  Processor      6
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1636  Allocated:      1633
+
+*****  Processor      7
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1637  Allocated:      1633
+
+*****  Processor      8
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1634  Allocated:      1633
+
+*****  Processor      9
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1635  Allocated:      1633
+
+*****  Processor     10
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1634  Allocated:      1633
+
+*****  Processor      9
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1634  Allocated:      1633
+
+*****  Processor      8
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1634  Allocated:      1633
+
+*****  Processor     10
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1634  Allocated:      1633
+
+*****  Processor      7
+***** System must be very inhomogeneous.
+*****  Readjusting recip sizes.
+ In this slab, Atoms found:      1635  Allocated:      1633
+
+DONE
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n3h3-8>
+Subject: Job 94630: <water_u10> in cluster <henry2> Done
+
+Job <water_u10> was submitted from host <login03> by user <ecarden> in cluster <henry2> at Sun Feb  6 14:48:48 2022
+Job was executed on host(s) <16*n3h3-8>, in queue <santiso>, as user <ecarden> in cluster <henry2> at Sun Feb  6 15:25:58 2022
+</home/ecarden> was used as the home directory.
+</share/eesantis/ecarden/urea_water_2/10_01> was used as the working directory.
+Started at Sun Feb  6 15:25:58 2022
+Terminated at Mon Feb  7 17:00:28 2022
+Results reported at Mon Feb  7 17:00:28 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/csh
+### Job name
+#BSUB -J water_u10
+### Number of cores
+#BSUB -n 16
+### Wallclock time
+#BSUB -W 95:00
+### Request specific queue (uncomment to use)
+#BSUB -q santiso
+### Request all cores on same node
+#BSUB -R "span[hosts=1]"
+### Request 2 8-core processors
+#BSUB -R "select[oc]"
+### Standard output file
+#BSUB -o o.%J
+### Standard error file
+#BSUB -e e.%J
+
+module load amber
+
+grep -m 1 ‘model name’ /proc/cpuinfo
+cat /etc/redhat-release
+
+mpiexec sander.MPI -O -i min0.in -o min0.out -p simbox.prmtop -c simbox.inpcrd -r min0.ncrst -x min0.mdcrd -inf min0.mdinfo -ref simbox.inpcrd
+
+mpiexec sander.MPI -O -i min.in -p simbox.prmtop -c min0.ncrst -r min.ncrst -o min.out -x min.mdcrd -inf min.mdinfo
+$AMBERHOME/bin/ambpdb -p simbox.prmtop -c min.ncrst > min.pdb
+
+mpiexec sander.MPI -O -i heat.in -o heat.out -p simbox.prmtop -c min.ncrst -r heat.ncrst -x heat.nc -ref min.ncrst
+
+mpiexec sander.MPI -O -i equil.in -o equil.out -p simbox.prmtop -c heat.ncrst -r equil.ncrst -x equil.nc -inf equil.mdinfo
+$AMBERHOME/bin/ambpdb -p simbox.prmtop -c equil.ncrst > equil.pdb
+
+echo "DONE"
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1472020.25 sec.
+    Max Memory :                                 588.03 MB
+    Average Memory :                             546.17 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              21
+    Max Threads :                                22
+    Run time :                                   92091 sec.
+    Turnaround time :                            94300 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <e.94630> for stderr output of this job.
+

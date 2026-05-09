@@ -1,0 +1,166 @@
+REMARK   1 CREATED WITH MDTraj 1.9.6, 2022-04-06
+CRYST1   44.756   44.756   44.756  90.00  90.00  90.00 P 1           1 
+MODEL        0
+ATOM      1  C1  URE A   0       5.847 105.787  78.898  1.00  0.00           C  
+ATOM      2  O1  URE A   0       6.144 106.878  79.323  1.00  0.00           O  
+ATOM      3  N1  URE A   0       6.670 104.769  78.599  1.00  0.00           N  
+ATOM      4  H1  URE A   0       7.658 104.952  78.728  1.00  0.00           H  
+ATOM      5  H2  URE A   0       6.370 103.854  78.283  1.00  0.00           H  
+ATOM      6  N1A URE A   0       4.588 105.467  78.637  1.00  0.00           N  
+ATOM      7  H1A URE A   0       3.880 105.994  79.132  1.00  0.00           H  
+ATOM      8  H2A URE A   0       4.372 104.533  78.308  1.00  0.00           H  
+ATOM      9  C1  URE A   1      40.232 -94.400  12.344  1.00  0.00           C  
+ATOM     10  O1  URE A   1      39.735 -95.017  11.425  1.00  0.00           O  
+ATOM     11  N1  URE A   1      41.194 -94.878  13.154  1.00  0.00           N  
+ATOM     12  H1  URE A   1      41.470 -95.838  12.986  1.00  0.00           H  
+ATOM     13  H2  URE A   1      41.667 -94.454  13.943  1.00  0.00           H  
+ATOM     14  N1A URE A   1      39.880 -93.133  12.584  1.00  0.00           N  
+ATOM     15  H1A URE A   1      39.351 -92.581  11.920  1.00  0.00           H  
+ATOM     16  H2A URE A   1      40.174 -92.728  13.464  1.00  0.00           H  
+ATOM     17  C1  URE A   2      27.134 -48.535  16.258  1.00  0.00           C  
+ATOM     18  O1  URE A   2      27.784 -47.774  15.521  1.00  0.00           O  
+ATOM     19  N1  URE A   2      27.415 -49.853  16.343  1.00  0.00           N  
+ATOM     20  H1  URE A   2      28.244 -50.222  15.893  1.00  0.00           H  
+ATOM     21  H2  URE A   2      26.814 -50.481  16.863  1.00  0.00           H  
+ATOM     22  N1A URE A   2      26.167 -48.043  17.141  1.00  0.00           N  
+ATOM     23  H1A URE A   2      26.043 -47.055  17.330  1.00  0.00           H  
+ATOM     24  H2A URE A   2      25.841 -48.762  17.776  1.00  0.00           H  
+ATOM     25  C1  URE A   3     130.489 -54.930 -14.665  1.00  0.00           C  
+ATOM     26  O1  URE A   3     130.212 -53.976 -13.943  1.00  0.00           O  
+ATOM     27  N1  URE A   3     131.141 -55.977 -14.184  1.00  0.00           N  
+ATOM     28  H1  URE A   3     131.444 -55.975 -13.217  1.00  0.00           H  
+ATOM     29  H2  URE A   3     131.290 -56.740 -14.834  1.00  0.00           H  
+ATOM     30  N1A URE A   3     130.084 -55.040 -15.901  1.00  0.00           N  
+ATOM     31  H1A URE A   3     129.454 -54.343 -16.281  1.00  0.00           H  
+ATOM     32  H2A URE A   3     130.436 -55.826 -16.434  1.00  0.00           H  
+ATOM     33  C1  URE A   4       9.407 110.345 136.501  1.00  0.00           C  
+ATOM     34  O1  URE A   4       9.035 111.498 136.473  1.00  0.00           O  
+ATOM     35  N1  URE A   4      10.400 109.893 137.284  1.00  0.00           N  
+ATOM     36  H1  URE A   4      10.918 110.616 137.767  1.00  0.00           H  
+ATOM     37  H2  URE A   4      10.522 108.895 137.413  1.00  0.00           H  
+ATOM     38  N1A URE A   4       8.764 109.375 135.781  1.00  0.00           N  
+ATOM     39  H1A URE A   4       7.819 109.554 135.464  1.00  0.00           H  
+ATOM     40  H2A URE A   4       9.001 108.394 135.864  1.00  0.00           H  
+ATOM     41  C1  URE A   5     -88.841 104.990 147.510  1.00  0.00           C  
+ATOM     42  O1  URE A   5     -89.487 105.737 146.831  1.00  0.00           O  
+ATOM     43  N1  URE A   5     -87.982 104.074 147.043  1.00  0.00           N  
+ATOM     44  H1  URE A   5     -87.913 104.012 146.035  1.00  0.00           H  
+ATOM     45  H2  URE A   5     -87.210 103.851 147.660  1.00  0.00           H  
+ATOM     46  N1A URE A   5     -88.896 105.222 148.827  1.00  0.00           N  
+ATOM     47  H1A URE A   5     -89.553 105.942 149.102  1.00  0.00           H  
+ATOM     48  H2A URE A   5     -88.413 104.628 149.489  1.00  0.00           H  
+ATOM     49  C1  URE A   6      11.117  89.087   1.865  1.00  0.00           C  
+ATOM     50  O1  URE A   6      11.853  88.333   1.197  1.00  0.00           O  
+ATOM     51  N1  URE A   6      11.556  90.172   2.530  1.00  0.00           N  
+ATOM     52  H1  URE A   6      12.530  90.452   2.509  1.00  0.00           H  
+ATOM     53  H2  URE A   6      10.920  90.560   3.216  1.00  0.00           H  
+ATOM     54  N1A URE A   6       9.792  88.990   1.987  1.00  0.00           N  
+ATOM     55  H1A URE A   6       9.323  88.284   1.432  1.00  0.00           H  
+ATOM     56  H2A URE A   6       9.197  89.646   2.477  1.00  0.00           H  
+ATOM     57  C1  URE A   7     -16.401 -39.579  22.656  1.00  0.00           C  
+ATOM     58  O1  URE A   7     -17.375 -39.002  22.103  1.00  0.00           O  
+ATOM     59  N1  URE A   7     -16.432 -39.893  23.903  1.00  0.00           N  
+ATOM     60  H1  URE A   7     -17.294 -39.783  24.423  1.00  0.00           H  
+ATOM     61  H2  URE A   7     -15.593 -40.381  24.195  1.00  0.00           H  
+ATOM     62  N1A URE A   7     -15.274 -39.960  22.000  1.00  0.00           N  
+ATOM     63  H1A URE A   7     -15.211 -39.724  21.017  1.00  0.00           H  
+ATOM     64  H2A URE A   7     -14.603 -40.510  22.522  1.00  0.00           H  
+ATOM     65  C1  URE A   8     121.359 -29.554  12.988  1.00  0.00           C  
+ATOM     66  O1  URE A   8     121.681 -29.552  11.817  1.00  0.00           O  
+ATOM     67  N1  URE A   8     121.358 -30.650  13.733  1.00  0.00           N  
+ATOM     68  H1  URE A   8     121.502 -31.543  13.278  1.00  0.00           H  
+ATOM     69  H2  URE A   8     121.232 -30.632  14.738  1.00  0.00           H  
+ATOM     70  N1A URE A   8     120.959 -28.447  13.640  1.00  0.00           N  
+ATOM     71  H1A URE A   8     120.642 -27.651  13.100  1.00  0.00           H  
+ATOM     72  H2A URE A   8     120.574 -28.655  14.554  1.00  0.00           H  
+ATOM     73  C1  URE A   9      96.241  43.269 226.689  1.00  0.00           C  
+ATOM     74  O1  URE A   9      95.761  42.446 225.966  1.00  0.00           O  
+ATOM     75  N1  URE A   9      96.906  42.851 227.782  1.00  0.00           N  
+ATOM     76  H1  URE A   9      97.038  41.851 227.876  1.00  0.00           H  
+ATOM     77  H2  URE A   9      97.334  43.482 228.448  1.00  0.00           H  
+ATOM     78  N1A URE A   9      96.057  44.597 226.621  1.00  0.00           N  
+ATOM     79  H1A URE A   9      95.482  44.926 225.855  1.00  0.00           H  
+ATOM     80  H2A URE A   9      96.434  45.183 227.356  1.00  0.00           H  
+TER      81      URE A   9
+ENDMDL
+CONECT    1    2    3    6
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3
+CONECT    6    1    7    8
+CONECT    7    6
+CONECT    8    6
+CONECT    9   10   11   14
+CONECT   10    9
+CONECT   11    9   12   13
+CONECT   12   11
+CONECT   13   11
+CONECT   14    9   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   18   19   22
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   19
+CONECT   21   19
+CONECT   22   17   23   24
+CONECT   23   22
+CONECT   24   22
+CONECT   25   26   27   30
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   28   27
+CONECT   29   27
+CONECT   30   25   31   32
+CONECT   31   30
+CONECT   32   30
+CONECT   33   34   35   38
+CONECT   34   33
+CONECT   35   33   36   37
+CONECT   36   35
+CONECT   37   35
+CONECT   38   33   39   40
+CONECT   39   38
+CONECT   40   38
+CONECT   41   42   43   46
+CONECT   42   41
+CONECT   43   41   44   45
+CONECT   44   43
+CONECT   45   43
+CONECT   46   41   47   48
+CONECT   47   46
+CONECT   48   46
+CONECT   49   50   51   54
+CONECT   50   49
+CONECT   51   49   52   53
+CONECT   52   51
+CONECT   53   51
+CONECT   54   49   55   56
+CONECT   55   54
+CONECT   56   54
+CONECT   57   58   59   62
+CONECT   58   57
+CONECT   59   57   60   61
+CONECT   60   59
+CONECT   61   59
+CONECT   62   57   63   64
+CONECT   63   62
+CONECT   64   62
+CONECT   65   66   67   70
+CONECT   66   65
+CONECT   67   65   68   69
+CONECT   68   67
+CONECT   69   67
+CONECT   70   65   71   72
+CONECT   71   70
+CONECT   72   70
+CONECT   73   74   75   78
+CONECT   74   73
+CONECT   75   73   76   77
+CONECT   76   75
+CONECT   77   75
+CONECT   78   73   79   80
+CONECT   79   78
+CONECT   80   78
+END

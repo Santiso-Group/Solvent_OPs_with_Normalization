@@ -1,0 +1,14 @@
+Stage 0 - minimisation of simbox
+ &cntrl
+  imin   = 1,
+  maxcyc = 10000,
+  ncyc   = 500,
+  ntb    = 1,
+  ntr    = 1,
+  cut    = 10.0
+ /
+ Hold the URE fixed
+ 500.0
+ RES 1 1
+END
+END
