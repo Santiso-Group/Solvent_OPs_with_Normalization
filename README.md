@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1229330564.svg)](https://doi.org/10.5281/zenodo.20091547)
+
 This repository contains the original software for fitting and calculating the crystal order parameters of Santiso and Trout (J. Chem. Phys. 134, 064109, 2011), and its extension to fit to the local structure of liquids, incluiding the python-embeded normalization script, by Cárdenas-Vásquez, Savino and Santiso (JCP, submitted, 2026).
 
 This project was supported by the National Science Foundation (CBET #1855465) and the Beca Presidente de la República (now Beca Generación del Bicentenario) by PRONABEC, Peruvian Government.
