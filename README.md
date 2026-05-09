@@ -2,7 +2,7 @@
 
 This repository contains the original software for fitting and calculating the crystal order parameters of Santiso and Trout (J. Chem. Phys. 134, 064109, 2011), and its extension to fit to the local structure of liquids, incluiding the python-embeded normalization script and 2 examples of its applications, by Cárdenas-Vásquez, Savino and Santiso (JCP, submitted, 2026).
 
-This project was supported by the National Science Foundation (CBET #1855465) and the Beca Presidente de la República (now Beca Generación del Bicentenario) by PRONABEC, Peruvian Government.
+This project was supported by the National Science Foundation (CBET #1855465) and the Beca Presidente de la República (now Beca Generación del Bicentenario) by PRONABEC and the Peruvian Government.
 
 MIT License
 
