@@ -1,0 +1,9 @@
+# change location of files accordingly
+source leaprc.gaff
+URE = loadmol2 urea.mol2
+ACN = loadmol2 acn.mol2
+simbox = loadPdb simbox.pdb
+loadamberparams frcmod.urea
+loadamberparams frcmod.acn
+set simbox box {60.0 60.0 60.0}
+saveAmberParm simbox simbox.prmtop simbox.inpcrd
